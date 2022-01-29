@@ -1,0 +1,32 @@
+<!-- actual season -->
+<div class="row">
+    <h1>{{season}} </h1>
+    <p>Recommendations for {{season}} season: </p>
+
+    <div class="col-6 p-2" *ngFor="let pl of places">
+        <div class="card">
+            <h3> {{pl.city}}</h3> <br>
+        {{pl.description}} <br>
+        <div class="row">
+            <span class="col-3" *ngFor="let pic of pl.pictures">
+                <img class="w-100 img-fluid p-1" src="{{pic}}" alt="city-pic">
+            </span> <br>
+        </div>
+        <!-- <span *ngFor="let seas of pl.seasons">
+             {{seas}}
+        </span> <br> -->
+        <h3>Things and places to see in {{pl.city}}</h3>
+        <span *ngFor="let atr of pl.atractions">
+            {{atr}} <br>
+        </span> <br>
+
+        <!-- <span style="color: red;">{{pl.seasonStamp}}</span> -->
+        </div>
+        
+    </div>
+</div>
+
+<!-- other seasons -->
+<div>
+
+</div>

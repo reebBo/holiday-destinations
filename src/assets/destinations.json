@@ -1,0 +1,35 @@
+[
+    {
+        "city": "Brasov",
+        "description": "Brasov, Romania is the gateway into Transylvania. Brasov is not pretending to be a medieval city. It actually is. ",
+        "pictures": [
+            "assets/bear.jpg",
+            "assets/bear.jpg",
+            "assets/bear.jpg",
+            "assets/bear.jpg"
+        ],
+        "atractions":["Piata Sfatului - Council Square", "Biserica Neagra - Black Church", "Hike to or ride the cable car up to Tampa Mountain", "Stroll along Brasov’s historic streets", "Black and White Towers", "Strada Sforii -one of the narrowest streets in Europe", "Catherine’s Gate and Brasov’s fortified medieval walls", "Beyond the Saxon gates to the Schei District", "Kurtos Kalacs"],
+        "seasons": [
+            "summer",
+            "winter"
+        ],
+        "seasonStamp": "winter"
+    },
+    {
+        "city": "Copenhagen",
+        "description": "asdsdsdasdadsas asdsdsdasdadsas asdsdsdasdadsas asdsdsdasdadsas",
+        "pictures": [
+            "assets/map.png",
+            "assets/map.png",
+            "assets/map.png",
+            "assets/map.png"
+        ],
+        "atractions":[],
+        "seasons": [
+            "spring",
+            "summer" 
+        ],
+        "seasonStamp": "spring"
+    }
+]
+ 
